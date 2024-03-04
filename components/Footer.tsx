@@ -80,7 +80,7 @@ function Footer() {
                   <li className="mb-4">
                     <Link
                       href={`https://wa.me/51999936189?text=${encodeURIComponent(
-                        "Hola!, vengo de swiftr.agency.com y quisiera más información sobre la consultoría."
+                        "Hola!, vengo de swiftr.agency y quisiera más información sobre la consultoría de automatización para mi Inmobiliaria."
                       )}`}
                       className="hover:underline whitespace-nowrap"
                     >
@@ -108,7 +108,7 @@ function Footer() {
               </Link>
               . Todos los derechos reservados.
             </span>
-            <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+            {/* <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
               <Link
                 href="https://www.instagram.com/magnetperu/"
                 className="text-black/80 hover:text-black/40  transition duration-300"
@@ -181,7 +181,7 @@ function Footer() {
                   />
                 </svg>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
