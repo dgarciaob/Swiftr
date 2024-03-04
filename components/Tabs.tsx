@@ -11,7 +11,7 @@ export function TabsDemo() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black bg-gradient-to-br from-[#E7F8D9] to-[#DFF4D7]">
           <p>Leads</p>
-          <DummyContent />
+          <DummyContent3 />
         </div>
       ),
     },
@@ -21,7 +21,7 @@ export function TabsDemo() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black bg-gradient-to-br from-[#E7F8D9] to-[#DFF4D7]">
           <p>Agentes</p>
-          <DummyContent />
+          <DummyContent2 />
         </div>
       ),
     },
@@ -47,8 +47,30 @@ export function TabsDemo() {
 const DummyContent = () => {
   return (
     <Image
-      src="/linear.jpg"
+      src="/statistics.svg"
       alt="dummy image"
+      width="1000"
+      height="1000"
+      className="object-cover object-left-top h-[60%] md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
+    />
+  );
+};
+const DummyContent2 = () => {
+  return (
+    <Image
+      src="/dashboardTwo.png"
+      alt="dummy image"
+      width="1000"
+      height="1000"
+      className="object-cover object-left-top h-[60%] md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
+    />
+  );
+};
+const DummyContent3 = () => {
+  return (
+    <Image
+      src="/dashboardOne.svg"
+      alt="Leads"
       width="1000"
       height="1000"
       className="object-cover object-left-top h-[60%] md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
